@@ -5,27 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event handler</title>
     <link rel="stylesheet" href="event.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    
-        <ul class="nav">
-            <li style="float:left" onclick="O()"> <span class="material-symbols-outlined" >
-                menu
-                </span></li>
-           <li style="float:left"> <a href="#menu">MENU</a></li>
+    <ul class="nav" >
+        <li style="float:left" onclick="O()"> <span class="material-symbols-outlined">
+            menu
+            </span></li>
+        <li style="float:left"> <a href="#menu">MENU</a></li>
         <li><a href="#home">HOME</a></li>
         <li><a href="#about us">ABOUT US</a></li>
         <li><a href="#contact">CONTACT US</a></li>
-        <li><a href="#sign">Sign in/Log in</a></li></ul>
+        <li><a href="#sign">Sign in/Log in</a></li>
+    </ul>
     <ul class="side_nav">
-        <li><a href="#LiveEvents">Live Events</a></li>
+       
+        <li id="#livevents"><a href="">Live Events</a></li>
         <li><a href="#UpcomingEvents">Upcoming Events</a></li>
         <li><a href="#Venues">Venues</a></li>
         <li><a href="#Organize">Organize</a></li>
         <li><a href="#Logout">Logout</a></li>
     </ul>
+    <main>
+        <section>
+            <div id="main">
+
+                <div class="img-container">
+                    <div class="eve4"><img src="eve4.jpg"></div>
+                 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+                    <div class="text-overlay">
+                        <h2 style="color:white"><b>"Experience</h2>
+                        <h3>the Pulse</h3>
+                        <h4>of </h4>
+                        <h4 style="color:rgb(255, 255, 255)"> Campus Life"</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutUs">
+            <div id="about">
+                <h1 style="font-size:3em; text-align:center"><b>ABOUT US</b></h1>
+            </div>
+            <div id="who">
+                <h3 style="padding-left:1em;margin-left:8%;"><u>Who are we?</u></h3>
+                <p style="text-align:left;float:left;font-weight:normal; font-size:medium;margin-left:8%;">
+                    [Your Event Handler] specializes in creating unforgettable events. <br>With [number of years] years of experience,<br> our dedicated team ensures flawless execution, tailored to your unique vision.<br> Contact us today to make your next event remarkable.
+                </p>
+                <div id="photo">
+                    <img class="eve3" src="eve3.jpg">
+                </div>
+            </div>
+            <div id="photo1">
+                <img class="ait" src="ait.jpg">
+            </div>
+            <div id="how" style="margin-top:10%; margin-right: 8%;">
+                <h3 style="padding-right:1em;float:right;margin-right: 4%"><u>How we work?</u></h3>
+                <p style="text-align:right;float:right;font-weight:normal; font-size:medium;padding-right:0em; margin-right: 10%; transform:translateX(10%);">We start by understanding your event vision.<br> Our creative team crafts a unique concept aligned with your goals.<br> From venue selection to logistics, we handle every detail.<br> On event day, we manage everything for a seamless experience.<br> We gather feedback and provide ongoing assistance.<br> Our aim is to be your trusted event partner.</p>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer id="footer">
+        <div class="army">
+            <img  class =arm src="alogo1.png"><br>
+           <h3> ARMY INSTITUTE OF TECHNOLOGY</h3>
+           
+
+        </div>
+        <div class="ftr">
+            <h4>Contact Info.</h4>
+            <ul class="cont.">
+           <li> <span class="material-symbols-outlined">
+                call
+                </span>Phone No.: Nhi batana<br></li>
+            <li><span class="material-symbols-outlined">
+                mail
+                </span>E-mail: Yaad nhi</li>
+            </ul>
+        </div>
+
+        
+    </footer>
+    
+   
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="event.js"></script>  
+   <script src= "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="event.js"></script>
 </body>
 </html>
